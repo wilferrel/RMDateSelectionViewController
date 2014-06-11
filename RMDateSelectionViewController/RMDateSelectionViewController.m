@@ -477,7 +477,7 @@ static NSString *_localizedSelectTitle = @"Select";
 - (UIView *)backgroundView {
     if(!_backgroundView) {
         self.backgroundView = [[UIView alloc] initWithFrame:CGRectZero];
-        _backgroundView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.4];
+        _backgroundView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.8];
         _backgroundView.translatesAutoresizingMaskIntoConstraints = NO;
         
         UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(backgroundViewTapped:)];
